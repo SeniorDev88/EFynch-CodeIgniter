@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteRule ^assets/loan/docs/(.*)/(.*)$ user/User/urlcheck?folderkey=$1&dockey=$2 [L]

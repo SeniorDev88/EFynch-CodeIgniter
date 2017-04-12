@@ -1,0 +1,17 @@
+Array
+(
+    [apifunction] => login
+    [parameters] => Array
+        (
+            [password] => 123456
+            [enckey] => 73ecf75ba3dc051649efa1f66b7a9899
+            [email] => rajesh@consult-ic.com
+        )
+
+    [apiInfo] => Array
+        (
+            [apiKey] => icm_249863_anjeerj
+            [appVersion] => 3.0
+        )
+
+)
